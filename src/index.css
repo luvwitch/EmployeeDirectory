@@ -1,0 +1,23 @@
+body {
+  margin: 0%;
+  font-family: 'Raleway', sans-serif;
+  background-color: whitesmoke;
+}
+
+code {
+  font-family: 'Raleway', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+#root > div,
+div[data-reactroot] {
+  height: 100%;
+  padding: 0;
+  margin: 0; 
+}
